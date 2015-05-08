@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9EF1141AFCF75A00A90B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9EF1131AFCF75A00A90B9B /* main.m */; };
+		CA9EF1171AFCF75A00A90B9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9EF1161AFCF75A00A90B9B /* AppDelegate.m */; };
+		CA9EF11A1AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA9EF1181AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodeld */; };
+		CA9EF11D1AFCF75A00A90B9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9EF11C1AFCF75A00A90B9B /* ViewController.m */; };
+		CA9EF1201AFCF75A00A90B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9EF11E1AFCF75A00A90B9B /* Main.storyboard */; };
+		CA9EF1221AFCF75A00A90B9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9EF1211AFCF75A00A90B9B /* Images.xcassets */; };
+		CA9EF1251AFCF75A00A90B9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9EF1231AFCF75A00A90B9B /* LaunchScreen.xib */; };
+		CA9EF1311AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9EF1301AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9EF12B1AFCF75A00A90B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9EF1061AFCF75A00A90B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9EF10D1AFCF75A00A90B9B;
+			remoteInfo = Projeto_mapkit_cinema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA9EF10E1AFCF75A00A90B9B /* Projeto_mapkit_cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projeto_mapkit_cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9EF1121AFCF75A00A90B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9EF1131AFCF75A00A90B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA9EF1151AFCF75A00A90B9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA9EF1161AFCF75A00A90B9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA9EF1191AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projeto_mapkit_cinema.xcdatamodel; sourceTree = "<group>"; };
+		CA9EF11B1AFCF75A00A90B9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA9EF11C1AFCF75A00A90B9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA9EF11F1AFCF75A00A90B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA9EF1211AFCF75A00A90B9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA9EF1241AFCF75A00A90B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA9EF12A1AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_mapkit_cinemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9EF12F1AFCF75A00A90B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9EF1301AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Projeto_mapkit_cinemaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9EF10B1AFCF75A00A90B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9EF1271AFCF75A00A90B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA9EF1051AFCF75A00A90B9B = {
+			isa = PBXGroup;
+			children = (
+				CA9EF1101AFCF75A00A90B9B /* Projeto_mapkit_cinema */,
+				CA9EF12D1AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests */,
+				CA9EF10F1AFCF75A00A90B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9EF10F1AFCF75A00A90B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EF10E1AFCF75A00A90B9B /* Projeto_mapkit_cinema.app */,
+				CA9EF12A1AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9EF1101AFCF75A00A90B9B /* Projeto_mapkit_cinema */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EF1151AFCF75A00A90B9B /* AppDelegate.h */,
+				CA9EF1161AFCF75A00A90B9B /* AppDelegate.m */,
+				CA9EF11B1AFCF75A00A90B9B /* ViewController.h */,
+				CA9EF11C1AFCF75A00A90B9B /* ViewController.m */,
+				CA9EF11E1AFCF75A00A90B9B /* Main.storyboard */,
+				CA9EF1211AFCF75A00A90B9B /* Images.xcassets */,
+				CA9EF1231AFCF75A00A90B9B /* LaunchScreen.xib */,
+				CA9EF1181AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodeld */,
+				CA9EF1111AFCF75A00A90B9B /* Supporting Files */,
+			);
+			path = Projeto_mapkit_cinema;
+			sourceTree = "<group>";
+		};
+		CA9EF1111AFCF75A00A90B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EF1121AFCF75A00A90B9B /* Info.plist */,
+				CA9EF1131AFCF75A00A90B9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA9EF12D1AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EF1301AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.m */,
+				CA9EF12E1AFCF75A00A90B9B /* Supporting Files */,
+			);
+			path = Projeto_mapkit_cinemaTests;
+			sourceTree = "<group>";
+		};
+		CA9EF12E1AFCF75A00A90B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EF12F1AFCF75A00A90B9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9EF10D1AFCF75A00A90B9B /* Projeto_mapkit_cinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9EF1341AFCF75A00A90B9B /* Build configuration list for PBXNativeTarget "Projeto_mapkit_cinema" */;
+			buildPhases = (
+				CA9EF10A1AFCF75A00A90B9B /* Sources */,
+				CA9EF10B1AFCF75A00A90B9B /* Frameworks */,
+				CA9EF10C1AFCF75A00A90B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Projeto_mapkit_cinema;
+			productName = Projeto_mapkit_cinema;
+			productReference = CA9EF10E1AFCF75A00A90B9B /* Projeto_mapkit_cinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9EF1291AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9EF1371AFCF75A00A90B9B /* Build configuration list for PBXNativeTarget "Projeto_mapkit_cinemaTests" */;
+			buildPhases = (
+				CA9EF1261AFCF75A00A90B9B /* Sources */,
+				CA9EF1271AFCF75A00A90B9B /* Frameworks */,
+				CA9EF1281AFCF75A00A90B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9EF12C1AFCF75A00A90B9B /* PBXTargetDependency */,
+			);
+			name = Projeto_mapkit_cinemaTests;
+			productName = Projeto_mapkit_cinemaTests;
+			productReference = CA9EF12A1AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9EF1061AFCF75A00A90B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tiago Cahú e Rodrigo Dangelo";
+				TargetAttributes = {
+					CA9EF10D1AFCF75A00A90B9B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CA9EF1291AFCF75A00A90B9B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CA9EF10D1AFCF75A00A90B9B;
+					};
+				};
+			};
+			buildConfigurationList = CA9EF1091AFCF75A00A90B9B /* Build configuration list for PBXProject "Projeto_mapkit_cinema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA9EF1051AFCF75A00A90B9B;
+			productRefGroup = CA9EF10F1AFCF75A00A90B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9EF10D1AFCF75A00A90B9B /* Projeto_mapkit_cinema */,
+				CA9EF1291AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9EF10C1AFCF75A00A90B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9EF1201AFCF75A00A90B9B /* Main.storyboard in Resources */,
+				CA9EF1251AFCF75A00A90B9B /* LaunchScreen.xib in Resources */,
+				CA9EF1221AFCF75A00A90B9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9EF1281AFCF75A00A90B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9EF10A1AFCF75A00A90B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9EF1171AFCF75A00A90B9B /* AppDelegate.m in Sources */,
+				CA9EF11A1AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodeld in Sources */,
+				CA9EF11D1AFCF75A00A90B9B /* ViewController.m in Sources */,
+				CA9EF1141AFCF75A00A90B9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9EF1261AFCF75A00A90B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9EF1311AFCF75A00A90B9B /* Projeto_mapkit_cinemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9EF12C1AFCF75A00A90B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9EF10D1AFCF75A00A90B9B /* Projeto_mapkit_cinema */;
+			targetProxy = CA9EF12B1AFCF75A00A90B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA9EF11E1AFCF75A00A90B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9EF11F1AFCF75A00A90B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA9EF1231AFCF75A00A90B9B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9EF1241AFCF75A00A90B9B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA9EF1321AFCF75A00A90B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA9EF1331AFCF75A00A90B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9EF1351AFCF75A00A90B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projeto_mapkit_cinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA9EF1361AFCF75A00A90B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projeto_mapkit_cinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA9EF1381AFCF75A00A90B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Projeto_mapkit_cinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto_mapkit_cinema.app/Projeto_mapkit_cinema";
+			};
+			name = Debug;
+		};
+		CA9EF1391AFCF75A00A90B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Projeto_mapkit_cinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto_mapkit_cinema.app/Projeto_mapkit_cinema";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9EF1091AFCF75A00A90B9B /* Build configuration list for PBXProject "Projeto_mapkit_cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9EF1321AFCF75A00A90B9B /* Debug */,
+				CA9EF1331AFCF75A00A90B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9EF1341AFCF75A00A90B9B /* Build configuration list for PBXNativeTarget "Projeto_mapkit_cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9EF1351AFCF75A00A90B9B /* Debug */,
+				CA9EF1361AFCF75A00A90B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA9EF1371AFCF75A00A90B9B /* Build configuration list for PBXNativeTarget "Projeto_mapkit_cinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9EF1381AFCF75A00A90B9B /* Debug */,
+				CA9EF1391AFCF75A00A90B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA9EF1181AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA9EF1191AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodel */,
+			);
+			currentVersion = CA9EF1191AFCF75A00A90B9B /* Projeto_mapkit_cinema.xcdatamodel */;
+			path = Projeto_mapkit_cinema.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA9EF1061AFCF75A00A90B9B /* Project object */;
+}
